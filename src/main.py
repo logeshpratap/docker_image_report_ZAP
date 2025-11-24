@@ -4,8 +4,6 @@ from typing import List
 from math import pow
 
 app = FastAPI(title="Calculator API", description="A simple calculator API with multiple operations", version="1.0.0")
-
-#print("hello ")
 # -----------------------------
 # Pydantic Models
 # -----------------------------
