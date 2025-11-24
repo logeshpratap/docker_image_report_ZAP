@@ -7,6 +7,10 @@ app = FastAPI(title="Calculator API", description="A simple calculator API with 
 # -----------------------------
 # Pydantic Models
 # -----------------------------
+
+
+
+
 class Numbers(BaseModel):
     a: float = Field(..., description="First number")
     b: float = Field(..., description="Second number")
